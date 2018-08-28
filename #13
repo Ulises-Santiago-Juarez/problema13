@@ -1,0 +1,34 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+int costo,dia,distancia;
+
+cout<<"ingrese la distancia"<<endl;
+cin>>distancia;
+
+cout<<"ingresa dias de estancia" <<endl;
+cin>>dia;
+
+if(dia>7 && distancia > 800)
+{	
+	costo=distancia*0.17-0.3;
+}
+else
+{	
+	costo=distancia*0.17;
+}
+
+cout<<costo;
+
+
+
+return 0;
+
+}
+  
+
+
+
